@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <!--favicon-->
+    <link rel="icon" href="https://tse4.mm.bing.net/th?id=OIP.1vsEPt29dA4xQ1sNv6B55QHaHa&pid=Api&P=0&h=180" >
+    <!-- css-style-->
+    <link rel="stylesheet" href="./style.css">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--fontawesome-cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!---google-font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img id="logo" src="./images/logo.jpeg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active mx-4" aria-current="page" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-4" aria-current="page" href="#activities">ACTIVITIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-4" aria-current="page" href="#testimonials">TESTIMONIAL</a>
+              </li>
+              <li class="nav-item ">
+                <button id="contact" class="btn rounded-0 mx-4 fs-4 ">CONTACT</button>
+              </li>
+              <li class="nav-item ">
+                <button id="contact" class="btn rounded-0 mx-4 fs-4 ">BOOK NOW</button>
+              </li>
+              <li class="nav-item">
+                <i class="fa-brands mx-3 fa-facebook-f fa-2x"></i>
+              </li>
+              <li class="nav-item">
+                <i class="fa-brands me-3 fa-instagram fa-2x"></i>
+              </li>
+              <li class="nav-item">
+                <i class="fa-brands me-3 fa-twitter fa-2x"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="bg">
+            <div class="welcome">
+              <h1>Let's Travel</h1>
+              <h2>@ Rivertree Farm Stays</h2>
+              <h3 class="mt-3">"Turning Moments into Memories"</h3>
+              <button id="contactbtn" class="btn rounded-0 px-3 py-2 mt-5">CONTACT US</button>
+              
+            </div>
+        </div>
+    </div>
+    <div class="row py-5" id="about">
+        <h1 class="text-center mb-5">ABOUT</h1>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h1>5.0</h1>
+                    </div>
+                    <div class="col-md-10">
+                        <h4>Excellent</h4>
+                        <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                        <p>52 Reviews</p>
+                    </div>
+                 <div class="row">
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> Location</p>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> Cleanliness</p>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> Service</p>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i> Value</p>
+                 </div>   
+                </div>
+                <div class="row">
+                    <h6>#1 of 1 limited service property in Kalpetta</h6>
+                    <p id="about-des" class="mt-3">A perfect hideout spot for nature lovers. Treehouse is built on a Jackfruit tree which is on a farm at the bank of Kabani river.River view balcony and vintage bedroom along with the warmth of great hospitality takes you high. Safe stay & wooden bridge access to get maximum privacy. Space for BBQ and romantic dinner.Guest can use the Bamboo Raft, Swimming, Archery, Gun shooting etc</p>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <h3 class="mb-4">Property amenities</h3>
+                <div class="row">
+                    <div class="col-md-12" id="icons">
+                        <p> <i class="fa-solid fa-square-parking"></i>  Free Parking</p>
+                        <p> <i class="fa-solid fa-utensils"></i>Restaurant </p>
+                        <p> <i class="fa-solid fa-paw"></i>Pets Allowed ( Dog / Pet Friendly )</p>
+                        <p> <i class="fa-solid fa-bowl-food"></i>Free breakfast</p>
+                        <p> <i class="fa-solid fa-child-reaching"></i>Children Activities (Kid / Family Friendly)</p>
+                        <p> <i class="fa-solid fa-plane-departure"></i>Airport transportation</p>
+                        <p> <i class="fa-solid fa-person-booth"></i>Room service</p>
+
+                        
+                    </div>
+                    
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+    </div>
+    <div class="activities" id="activities">
+        <h1 class="text-center m-5">ACTIVITIES</h1>
+        <div class="row mb-5">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-4 " >
+                <div class="card shadow  px-3 py-3 d-flex align-items-center justify-content-center" style="width: 100%;">
+                  <img src="./images/card1.jpg" class="card-img-top" alt="card-1" width="300px" height="300px">
+                  <div class="card-body">
+                      <h5 class="card-title">Historical Visit</h5>
+                      <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i></p>
+                      <p class="card-text">Historical Tours
+                        <h5>from ₹599 per adult (price varies by group size)</h5></p>
+                    <a href="#" class="btn btn-primary">View More</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card shadow px-3 py-3 d-flex align-items-center justify-content-center" style="width:100%;">
+                  <img src="./images/card-2.jpg" class="card-img-top" alt="card-1" width="300px" height="300px">
+                  <div class="card-body">
+                      <h5 class="card-title">Hiking</h5>
+                      <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i></p>
+                      <p class="card-text">Historical Tours
+                        <h5>from ₹499 per adult (price varies by group size)</h5></p>
+                    <a href="#" class="btn btn-primary">View More</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-4  ">
+                <div class="card shadow  px-3 py-3 d-flex align-items-center justify-content-center" style="width:100%;">
+                  <img src="./images/card-3.jpg" class="card-img-top" alt="card-1" width="300px" height="300px">
+                  <div class="card-body">
+                      <h5 class="card-title">Cycling</h5>
+                      <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i></p>
+                      <p class="card-text">Historical Tours
+                        <h5>from ₹1,599 per adult (price varies by group size)</h5></p>
+                    <a href="#" class="btn btn-primary">View More</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-4">
+                <div class="card shadow  px-3 py-3 d-flex align-items-center justify-content-center" style="width: 100%;">
+                  <img src="./images/card-4.jpg" class="card-img-top" alt="card-1" width="300px" height="300px">
+                  <div class="card-body">
+                      <h5 class="card-title">Boating</h5>
+                      <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i></p>
+                      <p class="card-text">Historical Tours
+                        <h5>from ₹1,599 per adult (price varies by group size)</h5></p>
+                    <a href="#" class="btn btn-primary">View More</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card shadow px-3 py-3 d-flex align-items-center justify-content-center" style="width:100%;">
+                  <img src="./images/card-5.jpg" class="card-img-top" alt="card-1" width="300px" height="300px">
+                  <div class="card-body">
+                      <h5 class="card-title">Pottering</h5>
+                      <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i></p>
+                      <p class="card-text">Historical Tours
+                        <h5>from ₹1,599 per adult (price varies by group size)</h5></p>
+                    <a href="#" class="btn btn-primary">View More</a>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-4  ">
+                <div class="card shadow  px-3 py-3 d-flex align-items-center justify-content-center" style="width:100%;">
+                  <img src="./images/card-6.jpeg" class="card-img-top" alt="card-1" width="300px" height="300px">
+                  <div class="card-body">
+                      <h5 class="card-title">Traditional Art</h5>
+                      <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i></p>
+                      <p class="card-text">Historical Tours
+                        <h5>from ₹599 per adult (price varies by group size)</h5></p>
+                    <a href="#" class="btn btn-primary">View More</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+    </div> 
+    <div class="sites-to-visit">
+        <h1 class="text-center m-5">Sites to Visit</h1>
+        <div class="sites">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/slide1.jpg" class="d-block w-100" alt="img1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Banasura sagar Dam</h5>
+                  <p>Banasura Sagar Dam captivates visitors with its breathtaking natural surroundings, encompassing lush greenery, serene waters, and majestic mountain vistas, making it a scenic marvel in the heart of Wayanad, Kerala.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slide2.jpeg" class="d-block w-100" alt="img2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Edakkal Caves</h5>
+                  <p>The Edakkal Caves, nestled amidst the lush greenery of Wayanad in Kerala, India, are a mesmerizing archaeological site renowned for their ancient rock engravings dating back thousands of years, offering visitors a fascinating glimpse into prehistoric human civilization amidst stunning natural surroundings..</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slide3.jpg" class="d-block w-100" alt="img3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Kuruva Island</h5>
+                  <p>Kuruva Island, situated in the heart of Wayanad district in Kerala, India, is a pristine and verdant river island formed by the convergence of the Kabini River. With its dense tropical forests, diverse flora and fauna, and tranquil ambience, it offers visitors an idyllic retreat into nature's lap, perfect for leisurely walks, birdwatching, and serene boat rides..</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slide4.jpg" class="d-block w-100" alt="img4">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Pookode Lake</h5>
+                  <p>Pookode Lake, nestled amid the picturesque Western Ghats in Wayanad district of Kerala, India, is a tranquil freshwater lake enveloped by lush greenery, offering visitors a serene escape amidst its pristine waters, scenic surroundings, and opportunities for boating and leisurely strolls along its verdant shores..</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slide5.jpg" class="d-block w-100" alt="img5">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>900 Kandi</h5>
+                  <p>900 Kandi is a picturesque region located in the Wayanad district of Kerala, India, renowned for its stunning landscapes, lush tea plantations, and vibrant biodiversity, providing visitors with a captivating retreat amidst the serene hills and verdant valleys of the Western Ghats..</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slide6.jpg" class="d-block w-100" alt="img6">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Kurumbala Kotta Hill Station</h5>
+                  <p>Kurumbalakkotta is a lesser-known hill station nestled in the verdant hills of Wayanad, Kerala, offering visitors a tranquil escape amidst its pristine natural beauty, lush forests, and panoramic views, making it an ideal destination for nature lovers seeking serenity and exploration off the beaten path.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slide7.jpeg" class="d-block w-100" alt="img7">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Meenmutty Waterfalls</h5>
+                  <p>Meenmutty Waterfalls, located in the Wayanad district of Kerala, India, is a breathtaking natural wonder cascading from a height of around 300 meters in three tiers, surrounded by lush greenery and dense forests, offering visitors a mesmerizing sight and a refreshing retreat into the heart of nature.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slide8.jpg" class="d-block w-100" alt="img8">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>En Uru</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+    </div>
+    <!-- <div class="book-now mt-5">
+      <div class=>
+          <div class="discount m-5">
+            <h4>Get 30% Off Now!</h4>
+            <h5>"Turning Moments into Memories"</h5>
+            <button id="contactbtn" class="btn rounded-0 px-3 py-2 mt-5">BOOK NOW</button>
+         </div>
+      </div>
+    </div> -->
+    <div class="testimonials" id="testimonials">
+      <h1 class="text-center mb-4">TESTIMONIAL</h1>
+      <p class="people fs-5">What people are saying</p>
+      <div class="row mb-5">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card shadow  px-4 py-5 d-flex align-items-center justify-content-center" style="width: 100%;">
+                <img src="./images/p1.jpg" class="card-img-top textImg mt-2" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Mariya Smantha</h5>
+                  <h6 class="text-primary text-center">Web Developer</h6>
+                  <p class="card-text"><i class="fa-solid fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, fuga ad. Ullam eos dicta expedita id vero eius. Incidunt provident, pariatur fugit quaerat tempora libero suscipit officia ratione porro esse!</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow px-4 py-5 d-flex align-items-center justify-content-center" style="width:100%;">
+                <img src="./images/p2.jpeg" class="card-img-top textImg mt-2 " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Lisa Cudrow</h5>
+                  <h6 class="text-center text-primary">Graphic Designer</h6>
+                  <p class="card-text"><i class="fa-solid fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, fuga ad. Ullam eos dicta expedita id vero eius. Incidunt provident, pariatur fugit quaerat tempora libero suscipit officia ratione porro esse!</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4  ">
+              <div class="card shadow  px-4 py-5 d-flex align-items-center justify-content-center" style="width:100%;">
+                <img src="./images/p3.jpeg" class="card-img-top textImg mt-2" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">John Smith</h5>
+                  <h6 class="text-center text-primary">Marketing Specialist</h6>
+                  <p class="card-text"><i class="fa-solid fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, fuga ad. Ullam eos dicta expedita id vero eius. Incidunt provident, pariatur fugit quaerat tempora libero suscipit officia ratione porro esse!</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
+    </div>
+    <div class="book-now">
+      <div class="row m-5 booking">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="m-3">BOOK NOW!!!</h2>
+            <img src="./images/book-now.jpg" alt="" width="75%" class="mb-3 ms-3" style="border-radius: 15px;">
+            
+          </div>
+          <div class="col-md-6 my-5">
+              <h3 class="mt-5">Your travel journey starts here...</h3>
+              <p>Sign up now for travel tips, personalized itineraries, and vacation inspiration straight to your inbox.</p>
+              <input type="email" placeholder="Email" class="email">
+              <!-- <button class="sign-up-btn m-5">Sign UP</button> -->
+              <button class="btn btn-primary mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" >
+                Sign UP
+              </button>
+              
+              <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="staticBackdropLabel">BOOK NOW !!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    <div class="container">
+                     
+                      <form id="multi-section-form">
+                        <div class="form-section">
+                          <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter a valid Email" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="email">Phone Number:</label>
+                            <input type="number" id="psw" name="num" placeholder="Enter your phone number" required>
+                          </div>
+                          
+                          
+                        </div>
+                        <div class="form-section">
+                          
+                          <div class="form-group">
+                            <label for="address">Address:</label>
+                            <input type="text" id="address" name="address" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="country">Country:</label>
+                            <select id="country" name="country" required>
+                              <option value="">Select Country</option>
+                              <option value="India">India</option>
+                              <option value="usa">USA</option>
+                              <option value="uk">UK</option>
+                              <option value="canada">Canada</option>
+                            </select>
+                          </div>
+                        </div>
+                        
+                        <input type="checkbox">
+                        <label for="">I here by declare that all informations entered here is true</label>
+                        <button  class="bookNowbtn">BOOK NOW</button>
+                        <br><br>
+                        
+                      </form>
+                </div>
+                  </div>
+                </div>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer-section pt-3 pb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img
+              src="./images/logo2.png"
+              class="travel-logo" width="150px"
+            />
+            <h1 class="footer-section-mail-id">letstravel@rivertree.com</h1>
+            <p class="footer-section-mail-id">
+              kalpetta,Wayanad, Kerala, India.
+            </p>
+            <p class="footer-section-mail-id">
+               Designed by Sona Binoy.
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
